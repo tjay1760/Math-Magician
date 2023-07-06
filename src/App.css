@@ -54,3 +54,18 @@
   border: none;
   background-color: var(--orange);
 }
+
+#Quote-header {
+  text-align: center;
+}
+
+#quotes {
+  background-color: var(--light-gray);
+  width: 400px;
+}
+
+.Application {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
