@@ -84,7 +84,7 @@ For more information on how to clone or fork a repository:
 - <a href="https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository">How to clone a repo</a>
 - <a href="https://docs.github.com/en/get-started/quickstart/fork-a-repo">How to fork a repo</a>
 
-If you want to make any kind of change or modification, Node.Js and NPM is necesary. For more information on how to install node.js and npm:
+If you want to make any kind of change or modification, Node.Js and NPM are necessary. For more information on how to install node.js and npm:
 - <a href="https://docs.npmjs.com/downloading-and-installing-node-js-and-npm">Downloading and installing Node.js and npm</a>
 
 ### Install
@@ -130,12 +130,12 @@ If you aren't satisfied with the build tool and configuration choices, you can `
 
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However, we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
 ```sh
   npm run deploy
 ```
-Deploys the App to the gh-pages from of the current repository.
+Deploys the App to the gh-pages from the current repository.
 
 ### Run tests
 
@@ -156,7 +156,7 @@ Launches the test runner in the interactive watch mode.
 ## 🔭 Future Features <a name="future-features"></a>
 
 Future changes:
-- Add states and evetns to calculator
+-Add styling to the calculator to improve the user experience
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
