@@ -1,6 +1,6 @@
 import './App.css';
+import Calculator from './components/calculator';
 import 'bootstrap/dist/css/bootstrap.css';
-import Calculator from './Components/calculator';
 
 function App() {
   return (
