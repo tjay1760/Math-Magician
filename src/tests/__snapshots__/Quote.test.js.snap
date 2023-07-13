@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render as expected test render of qoute page 1`] = `
+<div>
+  <div>
+    <p>
+      Fetching Quote......
+    </p>
+  </div>
+</div>
+`;
