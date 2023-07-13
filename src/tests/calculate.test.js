@@ -132,5 +132,3 @@ describe('Calculate Functionality', () => {
     expect(received.next).toEqual(result.next);
   });
 });
-
-
