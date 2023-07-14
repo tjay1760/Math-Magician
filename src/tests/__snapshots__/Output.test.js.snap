@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ScreenOutput should render the ScreenOutput component correctly 1`] = `
+<div>
+  <section
+    id="output-screen"
+  >
+    <p>
+       
+      <output>
+         
+        0
+      </output>
+    </p>
+  </section>
+</div>
+`;
+
+exports[`Should render as expected test render of quote page 1`] = `
+<div>
+  <section
+    id="output-screen"
+  >
+    <p>
+       
+      <output>
+         
+      </output>
+    </p>
+  </section>
+</div>
+`;
