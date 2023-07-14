@@ -1,11 +1,11 @@
-import { render, fireEvent } from '@testing-library/react';
+import { render } from '@testing-library/react';
 import { InputButtons } from '../components/Buttons';
 
 describe('InputButtons', () => {
   test('should render input buttons correctly', () => {
     const buttonClickHandlerMock = jest.fn();
     const { getByText } = render(<InputButtons buttonClickHandler={buttonClickHandlerMock} />);
-  
+
     // Find all input buttons by their text content
     const acButton = getByText('AC');
     const plusMinusButton = getByText('+/-');
@@ -21,7 +21,7 @@ describe('InputButtons', () => {
     const threeButton = getByText('3');
     const zeroButton = getByText('0');
     const dotButton = getByText('.');
-  
+
     // Assert that all input buttons are rendered
     expect(acButton).toBeInTheDocument();
     expect(plusMinusButton).toBeInTheDocument();
@@ -38,6 +38,6 @@ describe('InputButtons', () => {
     expect(zeroButton).toBeInTheDocument();
     expect(dotButton).toBeInTheDocument();
   });
-  
+
   // Add more test cases as needed
 });

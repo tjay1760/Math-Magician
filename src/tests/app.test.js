@@ -7,7 +7,7 @@ describe('Should render as expected', () => {
     const { container } = render(
       <MemoryRouter>
         <App />
-      </MemoryRouter>
+      </MemoryRouter>,
     );
     expect(container).toMatchSnapshot();
   });
