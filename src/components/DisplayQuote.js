@@ -1,4 +1,3 @@
-import axios from 'axios';
 import { useEffect, useState } from 'react';
 
 const Quote = () => {
@@ -10,13 +9,18 @@ const Quote = () => {
   useEffect(() => {
     const fetchQuote = async () => {
       try {
-        const response = await axios.get('https://api.api-ninjas.com/v1/quotes?category=government', {
+        const response = await fetch('https://api.api-ninjas.com/v1/quotes?category=government', {
           headers: { 'X-Api-Key': apiKey },
         });
-        setQuoteData(response.data[0] || {});
-        setIsLoading(false);
+        if (response.ok) {
+          const data = await response.json();
+          setQuoteData(data[0] || {});
+        } else {
+          throw new Error('Failed to fetch quote');
+        }
       } catch (error) {
         setError(error.message);
+      } finally {
         setIsLoading(false);
       }
     };
@@ -42,9 +46,7 @@ const Quote = () => {
           {quoteData.quote}
           &apos;
         </p>
-        <p>
-          {quoteData.author}
-        </p>
+        <p>{quoteData.author}</p>
       </div>
     );
   } else {

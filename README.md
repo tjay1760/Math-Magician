@@ -62,7 +62,7 @@
 
 
 To get a local copy up and running, follow these steps. To run local server or to make any modifications
-to the project NPM and Node.js must be installed.
+to the project, NPM and Node.js must be installed.
 
 ### Prerequisites
 
@@ -147,9 +147,15 @@ Launches the test runner in the interactive watch mode.
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Author**
+👤 **John Thiongo**
 
 - GitHub: [@tjay1760](https://github.com/tjay1760)
+- LinkedIn:[John Thiongo](https://www.linkedin.com/in/john-thiongo-10484347/)
+  
+👤 **Andry Narson**
+- GitHub: [@rbd3](https://github.com/rbd3)
+- Twitter: [@Narson321](https://twitter.com/@Narson321)
+- LinkedIn [@Andry Narson Rabedesana](https://linkedin.com/in/andry-narson-rabedesana-15b8b4248)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
